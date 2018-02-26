@@ -64,6 +64,8 @@ namespace WebApplication1.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public double QuantSize { get; set; }
+        public int InputWindow { get; set; }
+        public int PredictWindow { get; set; }
         public virtual ICollection<Quant> Quants { get; set; }
         public virtual ICollection<Tick> Ticks { get; set; }
         public virtual ICollection<Network> Networks { get; set; }
@@ -92,5 +94,6 @@ namespace WebApplication1.Models
         public string FileName { get; set; }
         public DateTime LastRecalculation { get; set; }
         public int QuantsProcessed { get; set; }
+        public double Quality { get; set; }
     }
 }

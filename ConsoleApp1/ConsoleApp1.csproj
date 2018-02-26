@@ -49,6 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSVPredict\config.cs" />
+    <Compile Include="CSVPredict\DbLoader.cs" />
+    <Compile Include="CSVPredict\marketbuildtraining.cs" />
+    <Compile Include="CSVPredict\marketevaluate.cs" />
+    <Compile Include="CSVPredict\marketpredict.cs" />
+    <Compile Include="CSVPredict\marketprune.cs" />
+    <Compile Include="CSVPredict\markettrain.cs" />
+    <Compile Include="CSVPredict\mytests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

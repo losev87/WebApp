@@ -92,7 +92,7 @@ namespace Encog.ML.Data.Market
             }
 
             // if the symbols match then we need to compare the exchanges
-            if (other.Exchange == null && other.Exchange == null)
+            if (other.Exchange == null && this.Exchange == null)
             {
                 return true;
             }
